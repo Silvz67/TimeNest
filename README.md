@@ -4,11 +4,11 @@ Um cronômetro digital estilizado, responsivo e fácil de usar, desenvolvido em 
 
 ## 🚀 Demonstração
 
-[Veja online](#) >
+[Veja online](time-nest-three.vercel.app) >
 
 ## 📸 Preview
 
-![Preview do Cronômetro](./screenshot.png) 
+![Preview do Cronômetro](./src/assets/img-projeto.png) 
 
 ## ✨ Funcionalidades
 
@@ -32,7 +32,9 @@ O layout se adapta a telas pequenas (celulares), garantindo boa usabilidade em q
 
 Você pode alterar cores, fontes e animações facilmente no arquivo `App.css`.
 
-## ⚡ Como usar
+
+
+# ⚡ Como usar
 
 1. Clone o repositório:
    ```
