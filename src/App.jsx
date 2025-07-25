@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import "./App.css";
+import DataHoraAtual from "./DataHoraAtual";
 
 
 function App() {
@@ -67,8 +68,9 @@ function App() {
     <div className="app melhorada">
       <audio ref={audioRef} src="/alarme1.wav" preload="auto" />
       <div className="container">
+        <DataHoraAtual /> {/* Exibe a data e hora atual */}
         <h1 className="titulo">
-          <span role="img" aria-label="cronômetro">⏱</span> Cronômetro
+          <span role="img" aria-label="cronômetro">⏱</span> TimeNest
         </h1>
         <div className="modo-selector">
           <button className={modo === "cronometro" ? "ativo" : ""} onClick={() => setModo("cronometro")}>Cronômetro</button>
