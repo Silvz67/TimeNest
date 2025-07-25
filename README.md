@@ -8,7 +8,7 @@ Um cronômetro digital estilizado, responsivo e fácil de usar, desenvolvido em 
 
 ## 📸 Preview
 
-![Preview do Cronômetro](./screenshot.png) 
+![Preview do Cronômetro](./src/assets/img-projeto.png) 
 
 ## ✨ Funcionalidades
 
