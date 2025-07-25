@@ -38,7 +38,7 @@ Você pode alterar cores, fontes e animações facilmente no arquivo `App.css`.
 
 1. Clone o repositório:
    ```
-   git clone https://github.com/seu-usuario/cronometro-moderno.git
+   git clone https://github.com/Silvz67/TimeNest/tree/main
    ```
 2. Instale as dependências:
    ```
