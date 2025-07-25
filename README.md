@@ -4,7 +4,7 @@ Um cronômetro digital estilizado, responsivo e fácil de usar, desenvolvido em 
 
 ## 🚀 Demonstração
 
-[Veja online](#time-nest-three.vercel.app) >
+[Veja online](time-nest-three.vercel.app) >
 
 ## 📸 Preview
 
