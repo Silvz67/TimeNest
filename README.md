@@ -1,12 +1,62 @@
-# React + Vite
+# ⏱️ Cronômetro Moderno
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um cronômetro digital estilizado, responsivo e fácil de usar, desenvolvido em React. Ideal para estudos, esportes ou qualquer atividade que precise de controle de tempo.
 
-Currently, two official plugins are available:
+## 🚀 Demonstração
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Veja online](#) >
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Preview do Cronômetro](./screenshot.png) 
+
+## ✨ Funcionalidades
+
+- Iniciar, pausar e resetar o cronômetro
+- Definir tempo personalizado (minutos e segundos)
+- Feedback visual ao finalizar o tempo
+- Design moderno com animações e responsividade
+- Suporte a dispositivos móveis
+
+## 🛠️ Tecnologias
+
+- React
+- CSS moderno (flexbox, animações, gradientes)
+- [Opcional] Testes unitários com Jest
+
+## 📱 Responsividade
+
+O layout se adapta a telas pequenas (celulares), garantindo boa usabilidade em qualquer dispositivo.
+
+## 🎨 Customização
+
+Você pode alterar cores, fontes e animações facilmente no arquivo `App.css`.
+
+## ⚡ Como usar
+
+1. Clone o repositório:
+   ```
+   git clone https://github.com/seu-usuario/cronometro-moderno.git
+   ```
+2. Instale as dependências:
+   ```
+   npm install
+   ```
+3. Inicie o projeto:
+   ```
+   npm start
+   ```
+
+## 📝 Melhorias futuras
+
+- Adicionar modo claro/escuro
+- Sons de alerta ao finalizar o tempo
+- Histórico de tempos
+
+## 📄 Licença
+
+Este projeto está sob licença MIT.
+
+---
+
+Feito com 💖 por [Artur Silvz](https://github.com/silvz67)
