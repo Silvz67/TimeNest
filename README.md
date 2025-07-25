@@ -52,7 +52,6 @@ Você pode alterar cores, fontes e animações facilmente no arquivo `App.css`.
 ## 📝 Melhorias futuras
 
 - Adicionar modo claro/escuro
-- Sons de alerta ao finalizar o tempo
 - Histórico de tempos
 
 ## 📄 Licença
