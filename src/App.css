@@ -1,0 +1,153 @@
+.app.melhorada {
+  min-height: 100vh;
+  min-width: 100vw;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #232526 60%, #ff0066 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.container {
+  background: #18181aee;
+  border-radius: 18px;
+
+
+  
+  box-shadow: 0 8px 32px #0008;
+  padding: 3.5rem 3.5rem 2.5rem 3.5rem;
+  min-width: 400px;
+  max-width: 90vw;
+  min-height: 420px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titulo {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #fff 20%, #ff0066 50%, #fff 80%);
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 16px #ff3385, 0 2px 8px #000a;
+  animation: brilho-titulo 2.5s linear infinite;
+}
+
+@keyframes brilho-titulo {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
+.bloco {
+  background: #222226cc;
+  border-radius: 18px;
+  padding: 2.5rem 2rem 2rem 2rem;
+  margin-top: 0.5rem;
+  min-width: 320px;
+  max-width: 100%;
+  box-shadow: 0 8px 32px #ff338555, 0 2px 12px #0005;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: bloco-entrada 1.2s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+@keyframes bloco-entrada {
+  0% {
+    opacity: 0;
+    transform: translateY(60px) scale(0.95);
+    filter: blur(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+.tempo-digital {
+  font-family: 'Share Tech Mono', 'Consolas', monospace;
+  font-size: 3.2rem;
+  margin: 1.5rem 0 2rem 0;
+  letter-spacing: 2px;
+  color: #fff;
+  text-shadow: 0 2px 16px #ff3385, 0 2px 8px #000a;
+  filter: drop-shadow(0 0 8px #ff3385cc);
+  transition: color 0.3s, text-shadow 0.3s;
+}
+@media (max-width: 700px) {
+  .container {
+    min-width: 98vw;
+    max-width: 98vw;
+    min-height: 90vh;
+    padding: 1.2rem 0.2rem 1rem 0.2rem;
+  }
+  .bloco {
+    min-width: 90vw;
+    padding: 1.2rem 0.2rem 1rem 0.2rem;
+  }
+  .titulo {
+    font-size: 2rem;
+  }
+  .tempo-digital {
+    font-size: 1.5rem;
+  }
+}
+.app {
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial;
+  background-color: #111;
+  color: white;
+}
+
+input {
+  width: 80px;
+  margin: 0 5px;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+button {
+  margin: 5px;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #ff0066 60%, #ff3385 100%);
+  color: white;
+  box-shadow: 0 2px 16px #ff338555, 0 2px 8px #0005;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+}
+button:hover {
+  background: linear-gradient(90deg, #ff3385 60%, #ff0066 100%);
+  transform: scale(1.07);
+  box-shadow: 0 4px 24px #ff3385aa, 0 2px 8px #0005;
+}
+button:active {
+  transform: scale(0.97);
+}
+
+.modo-selector {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
